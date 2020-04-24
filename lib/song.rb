@@ -40,7 +40,7 @@ class Song
     @@artists.each do |x|
       hash[x] += 1 
     end 
-    hash 
+    hash
   end 
   
 end
