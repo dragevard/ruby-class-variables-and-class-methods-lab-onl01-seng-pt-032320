@@ -5,4 +5,11 @@ class Song
   @@count = 0 
   
   def initialize(song)
-    d
+    @@count += 1
+  end 
+  
+  def count
+    @@count 
+  end 
+  
+end
