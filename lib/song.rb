@@ -28,19 +28,19 @@ class Song
   end
   
   def self.genre_count
-    hash = {}
+    new_hash = {}
     @@genres.each do |x|
-      hash[x] += 1 
+      new_hash[x] += 1 
     end 
-    hash
+    new_hash
   end
   
   def self.artist_count
-    hash = {}
+    new_hash = {}
     @@artists.each do |x|
-      hash[x] += 1 
+      new_hash[x] += 1 
     end 
-    hash
+    new_hash
   end 
   
 end
